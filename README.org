@@ -1,0 +1,3 @@
+* Daily coding challenge solutions
+This repository contains my solutions to "daily coding challenge" interview
+prep questions, during my search for gainful employment in the Denver metro area.
