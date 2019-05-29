@@ -7,8 +7,6 @@
    
    Bonus: Can you do this in one pass?
 ** My solution
-   My solution works in linear time (one pass) for lists of positive integers
-   and positive k values. I'm pretty sure that getting it work for lists containing
-   negative integers and k values would just be a matter of writing a more general
-   hashing function, which could be an interesting exercise but exempted on my part
-   for the sake of smart time allocation.
+   My solution works in linear time (one pass) for lists of positive and negative
+   integers, and positive k values. Negative k values are currently untested, to-do
+   in next commit.
