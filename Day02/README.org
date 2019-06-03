@@ -1,0 +1,27 @@
+* Daily Coding Problem - Day 2
+** The problem
+This problem was asked by Google.
+
+Given the root to a binary tree, implement ~serialize(root)~,
+which serializes the tree into a string, and ~deserialize(s)~,
+which deserializes the string back into the tree.
+
+For example, given the following ~Node~ class:
+#+BEGIN_SRC python
+class Node:
+    def __init__(self, val, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+#+END_SRC
+
+The following test should pass:
+#+BEGIN_SRC python
+node = Node('root', Node('left', Node('left.left')), Node('right'))
+assert deserialize(serialize(node)).left.left.val == 'left.left'
+#+END_SRC
+** My solution
+   My solution works for trees of strings utilizing brackets (left children)
+   and curly braces (right children) to unambiguously serialize binary trees.
+   Both ~serialize~ and ~deserialize~ are implemented recursively, for ease of
+   expression.
