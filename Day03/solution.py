@@ -1,6 +1,3 @@
-from time import sleep
-import sys
-
 def missing_element(arr):
     duplicate = None
     for i, element in enumerate(arr):

@@ -12,5 +12,5 @@
    My solution works in linear time, in constant space by continuously swapping elements into
    indices based on their value minus 1 until a conflict is reached.
    
-   Credit to this [[https://stackoverflow.com/questions/5414854/remove-duplicates-from-array-in-linear-time-and-without-extra-arrays][StackOverflow]] post for the idea, which I basically just refactored into
-   a solution to this problem.
+   Credit to [[https://stackoverflow.com/questions/5414854/remove-duplicates-from-array-in-linear-time-and-without-extra-arrays][Jeff's StackOverflow answer]] for the idea, which I basically just
+   refactored into a solution to this problem.

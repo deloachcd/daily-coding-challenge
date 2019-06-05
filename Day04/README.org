@@ -1,0 +1,19 @@
+* Daily Coding Problem - Day 4
+** The problem
+   ~cons(a, b)~ constructs a pair, and ~car(pair)~ and ~cdr(pair)~
+   returns the first and last element of that pair. For example,
+   ~car(cons(3, 4))~ returns ~3~, and ~cdr(cons(3, 4))~ returns 4.
+   
+   Given this implementation of cons:
+
+#+BEGIN_SRC python
+def cons(a, b):
+    def pair(f):
+        return f(a, b)
+    return pair
+#+END_SRC
+
+Implement ~car~ and ~cdr~.
+** My solution
+   My solution uses a lambda function which is passed as an argument to the
+   ~pair~ function that is returned by ~cons~.
