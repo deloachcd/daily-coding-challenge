@@ -11,3 +11,5 @@ def test_my_cases():
     assert largest_sum_non_adjacent([5, 1, 1, 7, 1, 5, 1]) == 17
     assert largest_sum_non_adjacent([5, 1, 1, 1, 7, 1, 1, 5]) == 18
     assert largest_sum_non_adjacent([1, 5, 1, 1, 7, 1, 1, 5]) == 17
+    assert largest_sum_non_adjacent([2, 9, 4, 7, 3, 9, 5, 8, 6, 2]) == 35
+
