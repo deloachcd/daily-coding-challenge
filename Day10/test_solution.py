@@ -6,6 +6,7 @@ def test_their_cases():
 
 
 def test_my_cases():
+    assert suggest_completions("dogg", ["dog", "deer", "deal"]) == []
     completions = suggest_completions(
         "pos",
         [
